@@ -1,0 +1,111 @@
+#Layers {
+    position: relative;
+    text-align: center;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.inputs {
+    text-align: center;
+    height: 95px;
+    margin: 0;
+    padding: 0;
+}
+
+.canvasBackground {
+    border:1px solid #c3c3c3;
+    position: relative;
+    z-index: -1;
+    left: 0;
+}
+.inputs h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Arial Black", Helvetica;
+    font-size: 2.5em;
+    color: #0694CF;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.coffeeButton {
+    width: 90px;
+    padding: 4px 4px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: .8em;
+    border-radius: 3px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.coffeeButton:hover {
+    color: #000;
+    background-color: #E3E0DC;
+}
+
+.buttons {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.selectedButton {
+    color: white;
+    background-color: #87CEEB;
+}
+
+#reStart {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+#stopStart {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.startButton {
+    padding: 4px 4px;
+    font-size: .8em;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: #87CEEB;
+    width: 60px;
+
+}
+
+.startButton:hover {
+    color: #000;
+    background-color: #E3E0DC;
+}
+
+.rel {
+    position: relative;
+}
+
+#background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.canvasLayers {
+    transition: 2s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
